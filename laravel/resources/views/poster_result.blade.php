@@ -14,6 +14,7 @@
         <p><strong>Judul Poster:</strong> {{ $data['poster_title'] }}</p>
         <p><strong>Poster:</strong></p>
         <img src="{{ asset('storage/' . $data['poster_path']) }}" width="300" alt="Poster">
+        <a href="/poster">Kembali</a>
     </div>
 </body>
 </html>
